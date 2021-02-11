@@ -16,14 +16,9 @@ export default class SingleRoom extends Component {
             slug: this.props.match.params.slug,
             defaultBcg
         };
-    }
-    static contextType = RoomContext;
-    // componentDidMount(){ }
-    render() {
-        const { getRoom } = this.context;
-        const room = getRoom(this.state.slug);
-        console.log(room);
-        // if(!room){
+    } 
+    
+    // if(!room){
         //     return <div className="error">
         //         <h3>no such room could be found...</h3> 
         //         <Link to='/rooms' className="btn-primary">
@@ -31,6 +26,15 @@ export default class SingleRoom extends Component {
         //         </Link>
         //     </div>
         // }
+
+        
+    static contextType = RoomContext;
+    // componentDidMount(){ }
+    render() {
+        const { getRoom } = this.context;
+        const room = getRoom(this.state.slug);
+        console.log(room);
+       
         return <div>hello from single room page {room.name}
         </div>;
     }
