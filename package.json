@@ -1,8 +1,8 @@
 {
-  "name": "hotel-resort",
+  "name": "hotel_resort",
   "version": "0.1.0",
   "private": true,
-  "pagename": "https://github.com/joseph-tg/Hotel-Resort.git", //my Github page 
+  "pagename": "https://github.com/joseph-tg/Hotel_Resort.git", 
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
