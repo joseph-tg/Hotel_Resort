@@ -478,7 +478,7 @@ export default [
     },
     fields: {
       name: "family economy",
-      slug: "family-economy",
+      slug: "family economy",
       type: "family",
       price: 300,
       size: 500,
